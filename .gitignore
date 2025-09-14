@@ -1,0 +1,31 @@
+# ROS2/colcon build outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Colcon/ament specific temp files
+**/colcon_command_prefix_build.sh
+**/colcon_command_prefix_build.sh.env
+**/colcon_build.rc
+**/install_manifest.txt
+**/symlink_install_manifest.txt
+**/CTest*
+**/Makefile
+**/cmake_install.cmake
+**/CMakeFiles/
+**/CMakeCache.txt
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
