@@ -29,4 +29,11 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 
+# Install Python nodes
+install(PROGRAMS
+  scripts/bot_controller.py
+  scripts/vision_detector.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
