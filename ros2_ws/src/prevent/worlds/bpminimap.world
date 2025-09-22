@@ -760,14 +760,19 @@
           </surface>
         </collision>
         <visual name='Wall_80_Visual'>
-          <pose>0 0 1.25 0 0 0</pose>
+          <pose frame=''>0 0 1.25 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>file://fire.dae</uri>
-              <scale>1.375 0.075 125</scale>
-            </mesh>
+            <box>
+              <size>2.75 0.15 2.5</size>
+            </box>
           </geometry>
-          <cast_shadows>0</cast_shadows>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/CeilingTiled</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
         </visual>
         <pose frame=''>-4.15 6.2 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
