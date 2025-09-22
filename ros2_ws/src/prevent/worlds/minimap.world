@@ -760,11 +760,11 @@
           </surface>
         </collision>
         <visual name='Wall_80_Visual'>
-          <pose>0 0 1.25 0 0 0</pose>
+          <pose>0 0 1.25 0 3.14 0</pose>
           <geometry>
             <mesh>
-              <uri>file://fire.dae</uri>
-              <scale>1.375 0.075 125</scale>
+              <uri>file:///code/PREVENT/ros2_ws/src/prevent/worlds/fire.obj</uri>
+              <scale>1.375 0.075 1.25</scale>
             </mesh>
           </geometry>
           <cast_shadows>0</cast_shadows>
