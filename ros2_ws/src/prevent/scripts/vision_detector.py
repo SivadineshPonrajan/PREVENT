@@ -18,12 +18,12 @@ import numpy as np
 # ---------------------------
 def detect_dominant_arrow_color(image_bgr) -> str:
     """
-    TODO (students): Return one of {"Red", "Green", "Blue", "Unknown"} based on the image.
+    TODO (students): Return one of {"Red", "Green", "Blue", "Flame", "Unknown"} based on the image.
     Keep it lightweight and robust.
     """
 
     # ---------------------------
-    # YOUR SOLUTION HERE (SHOULD RETURN "Red" OR "Blue" OR "Green" OR "Unknown")
+    # YOUR SOLUTION HERE (SHOULD RETURN "Red" OR "Blue" OR "Green" OR "Flame" OR "Unknown")
     # ---------------------------
     
     # ---------------------------
@@ -44,7 +44,7 @@ class VisionDetector(Node):
         self.REPUBLISH_NS = int(3.0 * 1e9)
 
         # Map color -> cue
-        self.color_to_cue = {"Green": 5, "Blue": 10, "Red": 15}
+        self.color_to_cue = {"Green": 5, "Blue": 10, "Red": 15, "Flame": 100}
 
         self.get_logger().info('vision_detector up (sub: /camera/image_raw, pub: /now_turn).')
 
