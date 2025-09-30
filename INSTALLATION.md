@@ -119,7 +119,7 @@ ros2 run image_view image_view --ros-args --remap /image:=/camera/image_raw
 ```
 👁️ **Watch the world through the robot's camera!**
 
-### 🎮 Terminal 3: Drive the Robot
+### 🎮 Terminal 3: Drive the Robot manually (Optional)
 ```bash
 # Setup environment first
 source /opt/ros/humble/setup.bash
