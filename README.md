@@ -54,7 +54,7 @@ Apply your skills in a realistic environment:
 - Use vision to detect navigation cues
 - Make decisions based on what the robot "sees"
 
-### 3️⃣ **Modular Design**
+### 3️⃣ **Real World Implementation**
 The same detection functions work in both:
 - 🔬 **Workshop exercises** (`detect.py`)
 - 🤖 **Robot simulation** (`vision_detector.py`)
