@@ -102,7 +102,7 @@ RUN apt-get update -q && \
     rm -rf /var/lib/apt/lists/*
 
 RUN rosdep update
-s
+
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
     apt-get update -q && \
     apt-get install -y \
