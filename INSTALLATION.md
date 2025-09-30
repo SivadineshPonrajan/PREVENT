@@ -1,13 +1,19 @@
 # 🤖 PREVENT - Installation instructions for Simulation
 
 ## 📋 Prerequisites
-- 🐧 **Linux OS** (Ubuntu 20.04/22.04 recommended)  
-- 🎮 **GPU**: NVIDIA or AMD graphics card
+- 🐧 **Windows / Linux OS**
+- 🎮 **GPU**: NVIDIA or AMD graphics card - **Highly recommended**
 - 💾 **RAM**: 8GB+ recommended
+- ⚙️ **`Docker desktop` software: If you are a windows user**
 
+```
+Apple Mac can't be used because of the silicon model based GPUs.
+```
 ---
 
 ## 🚀 Quick Start Installation
+
+Open the command prompt / terminal to run the following commands.
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -17,6 +23,9 @@ cd PREVENT
 ```
 
 ### 2️⃣ Build Docker Container
+
+**If you are a windows user run the `Docker desktop` software before running these commands**
+
 ```bash
 docker build -t tiryoh/ros2-desktop-vnc:humble .
 ```
